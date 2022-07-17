@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  background-color: #293462;
+}
+
+.container {
+  position: relative;
+  width: 37.5rem;
+  background: #232234;
+  padding: 24px;
+  margin: 30px auto;
+  border-radius: 25px;
+}
+
+.container .title {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.container .input-box-wrapper {
+  position: relative;
+}
+
+.input-box-wrapper .box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #383854;
+  border-bottom: 0;
+  padding: 14px 10px;
+}
+
+.input-box-wrapper .box label {
+  color: #fff;
+  text-transform: capitalize;
+  margin-left: 20px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.input-box-wrapper .box:first-child {
+  border-radius: 15px 15px 0 0;
+}
+
+.input-box-wrapper .box:last-child {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 1px solid #383854;
+}
+
+.input-box-wrapper .box .checkbox {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.print-values {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.print-values p {
+  background: #1e1e2e;
+  padding: 16px;
+  color: #b8b8b8;
+  text-transform: capitalize;
+  border-top: 4px solid #383854;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
