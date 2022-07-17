@@ -15,3 +15,13 @@ for (var checkbox of checkboxes) {
     }
   })
 }
+
+function deselectAll() {
+  let language = document.getElementsByName("language");
+  let languageLen = language.length;
+  for (var x = 0; x < languageLen; x++) {
+    language[x].checked = false;
+    listArray = listArray.filter(e => e == false);
+    valueList.innerHTML = "";
+  }
+}
